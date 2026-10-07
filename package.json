@@ -1,0 +1,13 @@
+{
+  "name": "trilium-livetennis",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Tennis score snapshots for Trilium Notes",
+  "license": "MIT",
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "build": "python3 scripts/build.py",
+    "check": "node --check src/backend.js && node --check src/widget.js"
+  },
+  "engines": { "node": ">=22" }
+}
